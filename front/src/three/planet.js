@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import getStarfield from "./getStarfield.js";
-import { getFresnelMat } from "./getFresnelMat.js";
+import getStarfield from "/NASA-Space-Apps-Challenge-2025/front/three/getStarfield.js";
+import { getFresnelMat } from "/NASA-Space-Apps-Challenge-2025/front/three/getFresnelMat.js";
 
 export function setupPlanet() {
   const w = window.innerWidth;

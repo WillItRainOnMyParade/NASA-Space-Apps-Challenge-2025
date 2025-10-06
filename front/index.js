@@ -1,11 +1,11 @@
-import { setupPlanet } from "./src/three/planet.js";
-import initClickToPause from "./src/three/clickPlanet.js";
-import { addPulseMarkerLoop } from "./src/three/showPointPlanet.js";
-import { initFocusOnMarker } from "./src/three/focusOnMarker.js";
-import { initCalendar } from "./src/ui/calendar.js";
-import { showControlPanel } from "./src/ui/controlPanel.js";
-import { initFindButton } from "./src/ui/findButton.js";
-import { initResultsPanel } from "./src/ui/resultsPanel.js";
+import { setupPlanet } from "/NASA-Space-Apps-Challenge-2025/front//src/three/planet.js";
+import initClickToPause from "/NASA-Space-Apps-Challenge-2025/front//src/three/clickPlanet.js";
+import { addPulseMarkerLoop } from "/NASA-Space-Apps-Challenge-2025/front//src/three/showPointPlanet.js";
+import { initFocusOnMarker } from "/NASA-Space-Apps-Challenge-2025/front//src/three/focusOnMarker.js";
+import { initCalendar } from "/NASA-Space-Apps-Challenge-2025/front/src/ui/calendar.js";
+import { showControlPanel } from "/NASA-Space-Apps-Challenge-2025/front/src/ui/controlPanel.js";
+import { initFindButton } from  "/NASA-Space-Apps-Challenge-2025/front/src/ui/findButton.js";
+import { initResultsPanel } from "/NASA-Space-Apps-Challenge-2025/front//src/ui/resultsPanel.js";
 
 const { earthGroup, earthMesh, glowMesh, camera, renderer, controls, startApproach } = setupPlanet();
 
